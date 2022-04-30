@@ -18,4 +18,8 @@ object Constants {
     const val FILLED_STARS_LABEL = "filledStars"
     const val HALF_FILLED_STARS_LABEL = "halfFilledStars"
     const val EMPTY_STARS_LABEL = "emptyStars"
+
+    const val ABOUT_TEXT_MAX_LINES = 7
+
+    const val  MIN_BACKGROUND_IMAGE_HEIGHT = 0.4f
 }
