@@ -1,6 +1,7 @@
 package com.example.borutoapp.navigation
 
 import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
@@ -8,7 +9,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import coil.annotation.ExperimentalCoilApi
-import com.example.borutoapp.feature_hero.presentation.details.DetailScreen
+import com.example.borutoapp.feature_hero.presentation.screens.details.DetailScreen
 import com.example.borutoapp.util.Constants.DETAILS_ARGUMENT_KEY
 import com.example.borutoapp.feature_hero.presentation.screens.home.HomeScreen
 import com.example.borutoapp.feature_hero.presentation.screens.search.SearchScreen
@@ -16,6 +17,7 @@ import com.example.borutoapp.feature_hero.presentation.screens.splash.SplashScre
 import com.example.borutoapp.feature_hero.presentation.screens.welcome.WelcomeScreen
 import com.google.accompanist.pager.ExperimentalPagerApi
 
+@ExperimentalMaterialApi
 @ExperimentalCoilApi
 @Composable
 @ExperimentalPagerApi
